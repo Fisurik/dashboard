@@ -1,4 +1,4 @@
-async function getDashboardData(url = './data.json') {
+async function getDashboardData(url = 'dashboard/data.json') {
 
     const response = await fetch(url);
     const data = await response.json();
