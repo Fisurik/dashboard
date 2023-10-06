@@ -1,4 +1,4 @@
-async function getDashboardData(url = './dashboard/data.json') {
+async function getDashboardData(url = 'https://fisurik.github.io/dashboard/data.json') {
 
     const response = await fetch(url);
     const data = await response.json();
